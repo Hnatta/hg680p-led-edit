@@ -1,7 +1,7 @@
 #!/bin/bash
 
-hgledon -s
+hgled -s
 clear
 wget -O /usr/bin/hgledon https://raw.githubusercontent.com/Hnatta/hg680p-led-edit/main/hgledon && chmod +x /usr/bin/hgledon
-hgledon -r
+hgled -r
 echo "[+] instalasi selesai..."

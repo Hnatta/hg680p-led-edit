@@ -1,0 +1,7 @@
+#!/bin/bash
+
+hgledon -s
+clear
+wget -O /usr/bin/hgledon https://raw.githubusercontent.com/chalyyzhu/LED_HG860P/main/hg680p.sh && chmod +x /usr/bin/hgledon
+hgledon -r
+echo "[+] instalasi selesai..."
